@@ -81,6 +81,9 @@ html {
 .nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+}
+
+.nav .nav-link:hover {
     background-color: var(--nav-item-link-hover);
 }
 
