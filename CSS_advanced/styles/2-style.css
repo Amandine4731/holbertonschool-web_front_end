@@ -11,14 +11,14 @@ body {
 a {
     color: #161616;
 }
-a.visually-hidden {
+.visually-hidden {
     display: none;
 }
 
-a.card-category {
+.card-category {
     color: #D73953;
 }
 
-a.section-tagline {
+.section-tagline {
     color: #D73953;
 }
