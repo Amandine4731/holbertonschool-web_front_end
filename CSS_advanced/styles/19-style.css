@@ -117,7 +117,7 @@ a:active {
 ul.row {
     margin: 0;
     padding: 0;
-    list-style: disc outside none;
+    list-style: none;
 }
 
 .col-1-3 {
