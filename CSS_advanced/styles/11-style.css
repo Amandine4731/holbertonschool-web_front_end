@@ -31,7 +31,7 @@ html {
     /* section-header-align custom properties */
     --section-header-align: center;
     /* section-tagline-transform custom properties */
-    --section-tagline-transform: uppercase:
+    --section-tagline-transform: uppercase;
 }
 
 body {
