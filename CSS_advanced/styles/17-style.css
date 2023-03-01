@@ -129,5 +129,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-    padding: var(--section-padding), var(--section-header-padding), var(--section-body-padding), var(--footer-padding), var(--footer-padding);
+    padding: var(--footer-padding);
 }
