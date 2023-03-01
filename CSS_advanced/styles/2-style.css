@@ -1,6 +1,5 @@
 html {
     /* Keyword values */
-    scroll-behavior: auto;
     scroll-behavior: smooth;
 }
 
@@ -12,14 +11,14 @@ body {
 a {
     color: #161616;
 }
-class.visually-hidden {
+a.visually-hidden {
     display: none;
 }
 
-class.card-category {
+a.card-category {
     color: #D73953;
 }
 
-class.section-tagline {
+a.section-tagline {
     color: #D73953;
 }
