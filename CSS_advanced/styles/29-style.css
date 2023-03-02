@@ -94,7 +94,7 @@ html {
     margin: var(--nav-item-margin);
 }
 
-.nav-item-link-hover::before {
+.nav .nav-link::before {
     content: "";
     position: absolute;
     top: 0;
@@ -106,7 +106,7 @@ html {
 
 .nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
-    width: 10rem;
+    width: 100%;
 }
 
 .nav .nav-link {
