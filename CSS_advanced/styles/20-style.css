@@ -138,7 +138,8 @@ ul.row {
 }
 
 .row::after {
-    grid-row: 1;
+    content: none;
+    display: inline-block;
     float: none;
 }
 
