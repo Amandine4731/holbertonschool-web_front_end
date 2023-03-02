@@ -225,7 +225,8 @@ ul.row {
 
 .card-work:hover .card-image {
     transform: scale(1.2);
-    transition: var(–-transition-duration), var(--transition-cubic-bezier);
+    transition-duration: var(–-transition-duration);
+    transition-timing-function: var(--transition-cubic-bezier);
 }
 
 .card-work .card-inner {
@@ -234,7 +235,8 @@ ul.row {
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
-    transition: var(–-transition-duration) var(--transition-cubic-bezier);
+    transition-duration: var(–-transition-duration);
+    transition-timing-function: var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
