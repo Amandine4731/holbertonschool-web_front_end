@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-*, *:after {
-    grid-row: 1;
-    float: none;
-}
 
 html {
     /* Keyword values */
@@ -139,6 +135,11 @@ ul.row {
 
 .visually-hidden {
     display: none;
+}
+
+.row::after {
+    grid-row: 1;
+    float: none;
 }
 
 .card-category {
