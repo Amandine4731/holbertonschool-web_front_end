@@ -121,6 +121,12 @@ ul.row {
     list-style: none;
 }
 
+.row::after {
+    content: none;
+    display: table;
+    float: none;
+}
+
 .col-1-3 {
     width: 33.33%;
     float: left;
@@ -137,11 +143,6 @@ ul.row {
     display: none;
 }
 
-.row::after {
-    content: none;
-    display: inline-block;
-    float: none;
-}
 
 .card-category {
     color: var(--color-primary);
