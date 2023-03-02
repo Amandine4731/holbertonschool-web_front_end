@@ -115,7 +115,8 @@ html {
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
-    transition: var(–-transition-duration), var(--transition-cubic-bezier);
+    transition-duration: var(–-transition-duration);
+    transition-timing-function: var(--transition-cubic-bezier);
 }
 
 .nav .nav-item:hover .nav-link::before {
@@ -173,7 +174,7 @@ a:active {
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
     transition-duration: var(--transition-duration);
-    transition-property: color;
+    transition-property: color, background-color;
 }
 
 ul.row {
@@ -363,6 +364,22 @@ ul.row {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
+}
+
+.card-testimonial {
+    text-align: center;
+}
+
+.card-testimonial .card-avatar {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+
+.card-testimonial .card-quote cite {
+    display: block;
+    padding-top: 1rem;
+    color: var(--color-primary);
 }
 
 .footer {
