@@ -124,7 +124,7 @@ ul.row {
 .row::after {
     content: "";
     display: table;
-    float: auto;
+    clear: both;
 }
 
 .col-1-3 {
