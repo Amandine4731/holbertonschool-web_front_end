@@ -11,7 +11,7 @@ html {
     font-size: 62.5%;
 }
 
-:root {
+:root, html[data-section-theme="light"] {
     /* color cutom properties */
     --color-primary: #d73953;
     --color-black: #090909;
@@ -58,6 +58,11 @@ html {
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
+}
+
+html[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
 }
 
 .navbar-menu {
