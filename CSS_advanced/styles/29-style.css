@@ -113,7 +113,7 @@ html {
     color: var(--nav-item-link-hover);
 }
 
-.nav-link.card-category {
+.nav .nav-link::before {
     background-color: var(--color-primary);
     width: 10rem;
 }
