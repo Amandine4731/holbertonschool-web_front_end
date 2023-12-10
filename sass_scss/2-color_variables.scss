@@ -1,0 +1,15 @@
+$text-color-grey: #3D3D3D;
+$background-color-grey: #6D6D6D;
+
+body {
+    color: $text-color-grey;
+    background-color: $background-color-grey;
+}
+
+p {
+    color: $text-color-grey;
+}
+
+h2 {
+    background-color: $background-color-grey;
+}
