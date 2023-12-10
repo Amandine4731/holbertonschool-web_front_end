@@ -4,7 +4,7 @@ $text-color-green: #00FF00;
 button {
     color: $text-color-grey;
 
-    button:hover {
+    &:hover {
         color: $text-color-green;
     }
 }
