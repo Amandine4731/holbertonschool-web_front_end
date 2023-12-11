@@ -616,6 +616,6 @@
     content: ", ";
   }
 
-  .tag-list li:last-child::after {
+  .tag-list li:last-child {
     content: "";
   }
