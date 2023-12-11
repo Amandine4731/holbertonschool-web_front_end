@@ -566,15 +566,15 @@
   /* Post
     ============================= */
 
-  .main-article .container .post {
+  .main-article .post {
     display: flex;
   }
 
-  .main-article .container .post-content {
+  .main-article .post-content {
     width: 100%;
   }
 
-  .main-article .container .post-aside {
+  .main-article .post-aside {
     order: -1;
     min-width: 20%;
   }
