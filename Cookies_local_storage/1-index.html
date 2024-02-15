@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="./src/index.js"></script>
+        <script>
+            function setCookies() {
+                var date = new Date();
+                var days = 10; // Set the number of days for the cookie to expire
+                var expires = new Date(date.getTime() + days * 24 * 60 * 60 * 1000); // Calculate expiration date
+            
+                // Set cookies for firstname and email
+                document.cookie = `firstname=${document.getElementById('firstname').value}; expires=${expires.toUTCString()}`;
+                document.cookie = `email=${document.getElementById('email').value}; expires=${expires.toUTCString()}`;
+            }            
+
+            function showCookies() {
+                let cookie = document.cookie.split(";")
+                let firstname = cookie[0].split("=")[1].trim()
+                let email = cookie[1].split("=")[1].trim()
+                let valueCookie = document.createElement("p")
+                valueCookie.textContent = `Cookie: firstname=${firstname}; email=${email}`
+                document.body.appendChild(valueCookie);
+            }
+        </script>
+    </head>
+        <body>
+
+            <h1>Login to the website</h1>
+            <input type="text" id="firstname"/>
+            <input type="text" id="email"/>
+            <button onclick="setCookies()">Log me in</button>
+
+            <h1>Cookies</h1>
+            <button onclick="showCookies()">Show the cookies</button>
+
+        </body>
+</html>
